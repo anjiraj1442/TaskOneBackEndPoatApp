@@ -1,0 +1,281 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:21:47.170Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:21:57.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:22:24.146Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:22:33.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:37:27.853Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:37:36.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:38:32.779Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:38:42.633Z"}
+info: Server started at http://localhost:3050/api/v1/ {"timestamp":"2022-03-03T12:02:22.664Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:02:32.560Z"}
+error: 
+    status - 500 
+    message - ValidationError: Post validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (C:\taskOne\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\taskOne\node_modules\mongoose\lib\document.js:2574:17
+    at C:\taskOne\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/users/post 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:05:11.730Z"}
+info: Server started at http://localhost:3050/api/v1/ {"timestamp":"2022-03-03T12:10:12.820Z"}
+info: Server started at http://localhost:3050/api/v1/ {"timestamp":"2022-03-03T12:23:48.768Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:23:57.695Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:84:36) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:24:11.700Z"}
+info: Server started at http://localhost:3050/api/v1/ {"timestamp":"2022-03-03T12:27:54.214Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:28:04.526Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:84:36) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:28:09.749Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:84:36) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:29:35.963Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:84:36) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:32:28.417Z"}
+info: Server started at http://localhost:3050/api/v1/ {"timestamp":"2022-03-03T12:32:54.199Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:33:04.468Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T12:34:28.077Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:34:38.140Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:84:36) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:34:39.105Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T12:38:38.804Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:38:49.106Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T12:40:51.363Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:41:01.616Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T12:42:44.800Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:42:54.413Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:02:56.167Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:03:04.557Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:03:39.432Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:03:47.633Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:03:57.503Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:04:05.984Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:04:21.353Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:04:34.463Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:04:41.360Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:04:49.453Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:05:17.287Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:05:30.021Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:05:37.880Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:05:46.194Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:16:25.332Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:16:34.155Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:17:01.330Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:17:10.945Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:19:15.029Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:19:23.564Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:25:05.365Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:25:14.142Z"}
+error: 
+    status - 500 
+    message - ValidationError: Post validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (C:\taskOne\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\taskOne\node_modules\mongoose\lib\document.js:2574:17
+    at C:\taskOne\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/users/post 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T13:28:04.820Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:32:29.626Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:32:39.339Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:37:30.933Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:37:39.438Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:37:55.639Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:38:04.685Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:38:49.864Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:38:58.795Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T13:41:35.461Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:41:44.554Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T14:18:57.045Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T14:38:37.177Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:38:45.615Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:31:32.999Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:31:53.553Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:54:4)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/update/6220c61b9536922598872960 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T16:34:28.174Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:35:10.998Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:35:20.502Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:54:8)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/update/6220c61b9536922598872960 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T16:35:22.472Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:37:04.955Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:37:15.087Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:53:21)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/update/6220c61b9536922598872960 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T16:37:17.113Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:38:17.791Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:38:28.099Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:39:45.336Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:39:54.068Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:44:22.476Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:44:31.239Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:51:53.778Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:52:02.501Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:53:29.181Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:57:37.134Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:58:02.271Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:58:25.415Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:58:38.916Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:58:47.599Z"}
+error: 
+    status - 500 
+    message - ValidationError: Post validation failed: userId: Path `userId` is required.
+    at model.Document.invalidate (C:\taskOne\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\taskOne\node_modules\mongoose\lib\document.js:2574:17
+    at C:\taskOne\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T16:59:05.010Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T16:59:46.445Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T16:59:54.975Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T17:08:07.548Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T17:08:16.469Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T17:08:52.479Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T17:09:00.359Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T17:10:09.935Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T17:10:54.686Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T17:11:03.197Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-03T17:46:49.447Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T17:46:58.912Z"}

@@ -1,0 +1,26 @@
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-04T01:25:28.271Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T01:25:37.046Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-04T01:29:21.054Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-04T01:29:27.059Z"}
+info: Connected to the database. {"timestamp":"2022-03-04T01:29:35.626Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\taskOne\node_modules\mongoose\lib\model.js:5087:32)
+    at C:\taskOne\node_modules\mongoose\lib\query.js:4510:21
+    at promiseOrCallback (C:\taskOne\node_modules\mongoose\lib\helpers\promiseOrCallback.js:10:12)
+    at model.Query.exec (C:\taskOne\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.findOne (C:\taskOne\node_modules\mongoose\lib\query.js:2329:8)
+    at model.Query.Query._findAndModify (C:\taskOne\node_modules\mongoose\lib\query.js:3642:16)
+    at model.Query.<anonymous> (C:\taskOne\node_modules\mongoose\lib\query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\taskOne\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\taskOne\node_modules\kareem\index.js:279:20
+    at _next (C:\taskOne\node_modules\kareem\index.js:103:16)
+    at C:\taskOne\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/post/update/6220c61b9536922598872960 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T01:51:13.937Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-04T01:51:39.399Z"}
+error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-04T01:52:55.045Z"}
