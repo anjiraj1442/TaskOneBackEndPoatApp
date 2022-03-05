@@ -32,25 +32,35 @@ export const login = async (req, res, next) => {
     next(err);
   }
 };
-// new post
-export const newPost = async (req, res, next) => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// update the post
+export const commentPost = async (req, res, next)=>{
   try {
-    const data = await UserService.newPost(req.body);
+    const data = await UserService.commentPost(req)
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
-      message: 'Post Added successfully'
+      message: 'Post updated successfully'
     });
-  } catch (error) {
-    next(error);
-  }
-};
-
-// update the post
-export const updatePost = async (req, res, next)=>{
-  try {
-    const post = await UserService.upadtePost(req)
-    return post
   
   } catch (error) {
     next(error);

@@ -19,11 +19,12 @@ const PostSchema = new mongoose.Schema(
       default: 0
     },
     comments: {
-      type: Array,
-      default: []
+
+      type:Array,
+      default:[]
     }
   },
-  { timestamps: true }
+  { timestamps: false }
 );
 
 module.exports = mongoose.model('Post', PostSchema);

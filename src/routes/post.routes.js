@@ -1,10 +1,11 @@
 import express from 'express';
-import * as userController from '../controllers/user.controller';
+import * as postController from '../controllers/post.controller';
 
 const router = express.Router();
 // post api
-router.post("/newpost",  userController.newPost)
+router.post("/newpost",  postController.newPost)
 // update post
- router.put("/update/:id", userController.updatePost)
-
+ router.put("/like/:_id", postController.likePost)
+// upadte comment
+router.put('/comment/:_id', postController.commentPost)
 export default router;

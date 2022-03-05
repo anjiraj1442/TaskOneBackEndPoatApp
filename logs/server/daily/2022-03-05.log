@@ -1,0 +1,243 @@
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T03:01:49.267Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T03:01:58.844Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:04:09.803Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:05:54.250Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:06:40.723Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:07:00.448Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T03:51:47.592Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T03:51:56.561Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:51:57.955Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T03:52:38.056Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T03:52:48.709Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T04:07:33.961Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:00:14.408Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T05:00:20.868Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:00:22.816Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T05:00:27.497Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:01:37.910Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:01:46.155Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T05:01:47.166Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:03:39.560Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:03:47.863Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:07:01.690Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:07:10.228Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:07:31.272Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:07:56.218Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:08:18.388Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:08:26.888Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:08:53.997Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:09:02.328Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:09:24.706Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:09:44.562Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:10:19.643Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:11:03.096Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:11:11.462Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:16:16.209Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:16:34.559Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:16:42.943Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:17:23.039Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:17:31.638Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:37:38.722Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:37:47.178Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T05:52:04.193Z"}
+info: Connected to the database. {"timestamp":"2022-03-05T05:52:13.029Z"}
+info: Server started at http://localhost:3060/api/v1/ {"timestamp":"2022-03-05T09:11:01.670Z"}
+error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-05T09:12:17.364Z"}

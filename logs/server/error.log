@@ -658,3 +658,725 @@ error:
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-03-04T01:51:13.937Z"}
 error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-04T01:52:55.045Z"}
+error: 
+      status - 2
+      message - Cannot apply $pull to a non-array value 
+      url - /api/v1/post/update/6220c61b9536922598872960 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-04T02:22:54.353Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 2
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\taskOne\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\taskOne\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\taskOne\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\taskOne\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\taskOne\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\taskOne\node_modules\express\lib\router\index.js:321:13)
+    at C:\taskOne\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\taskOne\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\taskOne\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\taskOne\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/post/update/6220c61b9536922598872960 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T02:22:54.362Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:55:7)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/update/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T03:02:58.851Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:55:14)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/update/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T03:06:20.751Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:56:14)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/update/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T03:09:01.764Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot create property 'updatedAt' on number '36'
+    at applyTimestampsToUpdate (C:\taskOne\node_modules\mongoose\lib\helpers\update\applyTimestampsToUpdate.js:74:31)
+    at model.Query._setTimestampsOnUpdate (C:\taskOne\node_modules\mongoose\lib\helpers\timestamps\setupTimestamps.js:106:5)
+    at callMiddlewareFunction (C:\taskOne\node_modules\kareem\index.js:483:23)
+    at next (C:\taskOne\node_modules\kareem\index.js:58:7)
+    at Kareem.execPre (C:\taskOne\node_modules\kareem\index.js:87:8)
+    at Kareem.wrap (C:\taskOne\node_modules\kareem\index.js:266:8)
+    at model.Query._updateOne (C:\taskOne\node_modules\kareem\index.js:376:11)
+    at C:\taskOne\node_modules\mongoose\lib\query.js:4527:19
+    at _next (C:\taskOne\node_modules\kareem\index.js:103:16)
+    at C:\taskOne\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/post/update/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T04:48:55.682Z"}
+error: 
+    status - 500 
+    message - Error: Invalid atomic update value for $set. Expected an object, received number
+    at castUpdate (C:\taskOne\node_modules\mongoose\lib\helpers\query\castUpdate.js:102:13)
+    at model.Query._castUpdate (C:\taskOne\node_modules\mongoose\lib\query.js:4721:10)
+    at castDoc (C:\taskOne\node_modules\mongoose\lib\query.js:4751:18)
+    at model.Query._updateThunk (C:\taskOne\node_modules\mongoose\lib\query.js:3877:20)
+    at model.Query.<anonymous> (C:\taskOne\node_modules\mongoose\lib\query.js:3979:23)
+    at model.Query._wrappedThunk [as _updateOne] (C:\taskOne\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\taskOne\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/post/update/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T04:50:28.080Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 10:27:05 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":323504},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18804425,"external":24860291,"heapTotal":95031296,"heapUsed":68466304,"rss":131944448},"pid":20544,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T04:57:05.573Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 10:30:40 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":323719},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19056269,"external":20594879,"heapTotal":93982720,"heapUsed":72891912,"rss":131481600},"pid":24820,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:00:40.832Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 10:33:53 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":323912},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18771657,"external":20594152,"heapTotal":97128448,"heapUsed":55585120,"rss":131047424},"pid":15352,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:03:53.521Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 10:34:15 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":323934},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18798823,"external":20585960,"heapTotal":96604160,"heapUsed":56013088,"rss":129916928},"pid":28176,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:04:15.761Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 10:35:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324008},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18788507,"external":20339199,"heapTotal":97128448,"heapUsed":55757624,"rss":130277376},"pid":25804,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:05:29.336Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:48
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:37:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324103},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18619971,"external":20181801,"heapTotal":99332096,"heapUsed":49546976,"rss":135057408},"pid":18260,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:48\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:07:04.484Z","trace":[{"column":48,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:48
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:38:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324218},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18619971,"external":20181801,"heapTotal":99594240,"heapUsed":49429816,"rss":135553024},"pid":9020,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:48\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:08:59.983Z","trace":[{"column":48,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:48
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:39:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324272},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19083923,"external":20881396,"heapTotal":97497088,"heapUsed":59410936,"rss":133480448},"pid":3092,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:48\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:09:53.677Z","trace":[{"column":48,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:48
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:42:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324418},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19083923,"external":20889588,"heapTotal":97497088,"heapUsed":59391888,"rss":133169152},"pid":22592,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:48\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:12:19.796Z","trace":[{"column":48,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:48
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:43:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324482},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19067073,"external":20881396,"heapTotal":97759232,"heapUsed":59318984,"rss":133419008},"pid":24720,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:48\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:13:23.802Z","trace":[{"column":48,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 10:46:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324676},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18809942,"external":20585960,"heapTotal":96604160,"heapUsed":56058528,"rss":129478656},"pid":17188,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:16:37.497Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:48
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:48:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324782},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19108172,"external":20905645,"heapTotal":97759232,"heapUsed":60083936,"rss":133218304},"pid":17116,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:48\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:18:23.856Z","trace":[{"column":48,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of null (reading '_id')
+TypeError: Cannot read properties of null (reading '_id')
+    at C:\taskOne\src\services\/user.service.js:50:51
+    at C:\taskOne\node_modules\mongoose\lib\model.js:5074:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Mar 04 2022 10:52:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":325043},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19066120,"external":20888635,"heapTotal":97234944,"heapUsed":59250112,"rss":132923392},"pid":29244,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Cannot read properties of null (reading '_id')\n    at C:\\taskOne\\src\\services\\/user.service.js:50:51\n    at C:\\taskOne\\node_modules\\mongoose\\lib\\model.js:5074:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-03-04T05:22:44.310Z","trace":[{"column":51,"file":"C:\\taskOne\\src\\services\\/user.service.js","function":null,"line":50,"method":null,"native":false},{"column":18,"file":"C:\\taskOne\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5074,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 62217c7628629f352c170f07
+    at model.Query.Query.find (C:\taskOne\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\taskOne\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:50:30)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.upadtePost (C:\taskOne\src\services\/user.service.js:49:24)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:52:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/post/update/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T05:26:09.960Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 11:01:52 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":325591},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18862310,"external":20594152,"heapTotal":96866304,"heapUsed":56680048,"rss":130158592},"pid":15840,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:31:52.728Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:51:56)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.likePost (C:\taskOne\src\services\/user.service.js:50:22)
+    at _callee3$ (C:\taskOne\src\controllers\/user.controller.js:38:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/post/like/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T05:48:48.002Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:51:56)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.likePost (C:\taskOne\src\services\/user.service.js:50:22)
+    at _callee3$ (C:\taskOne\src\controllers\/user.controller.js:38:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/post/like/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T05:51:01.760Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:51:56)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.likePost (C:\taskOne\src\services\/user.service.js:50:22)
+    at _callee3$ (C:\taskOne\src\controllers\/user.controller.js:38:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/post/like/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T05:52:58.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:51:56)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.likePost (C:\taskOne\src\services\/user.service.js:50:22)
+    at _callee3$ (C:\taskOne\src\controllers\/user.controller.js:38:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/post/like/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T05:54:14.284Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Mar 04 2022 11:25:05 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":326984},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18854118,"external":20585960,"heapTotal":96604160,"heapUsed":56576736,"rss":130076672},"pid":19976,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-04T05:55:05.599Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\taskOne\src\services\/user.service.js:51:56)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.likePost (C:\taskOne\src\services\/user.service.js:50:22)
+    at _callee3$ (C:\taskOne\src\controllers\/user.controller.js:38:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/post/like/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T05:56:21.228Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee5$ (C:\taskOne\src\services\/user.service.js:68:64)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.commentPost (C:\taskOne\src\services\/user.service.js:67:25)
+    at _callee4$ (C:\taskOne\src\controllers\/user.controller.js:76:36)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/post/comment/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T07:09:54.755Z"}
+error: 
+    status - 500 
+    message - ReferenceError: commentobj is not defined
+    at _callee5$ (C:\taskOne\src\services\/user.service.js:69:13)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/comment/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T07:10:26.511Z"}
+error: 
+    status - 500 
+    message - ReferenceError: commentobj is not defined
+    at _callee5$ (C:\taskOne\src\services\/user.service.js:69:13)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/comment/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T07:12:51.380Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to [string] failed for value "[{}]" (type string) at path "comments.0"
+    at model.Query.exec (C:\taskOne\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\taskOne\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/post/comment/62217c7628629f352c170f07 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T07:30:59.238Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:04:09.803Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:05:54.250Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:06:40.723Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:07:00.448Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T03:51:57.955Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T04:07:33.961Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T05:00:20.868Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T05:00:27.497Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\taskOne\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\taskOne\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\taskOne\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\taskOne\src\services\/user.service.js:12:39)
+    at tryCatch (C:\taskOne\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\taskOne\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\taskOne\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (C:\taskOne\src\services\/user.service.js:10:21)
+    at _callee$ (C:\taskOne\src\controllers\/user.controller.js:12:36) 
+    url - /api/v1/post/newpost 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-05T05:01:47.166Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (c:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (c:\taskOne\build\index.js:54:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Sat Mar 05 2022 11:19:30 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":413049},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","c:\\taskOne\\build\\index.js"],"cwd":"c:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18939234,"external":20047571,"heapTotal":40443904,"heapUsed":28889936,"rss":73801728},"pid":23320,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (c:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (c:\\taskOne\\build\\index.js:54:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-03-05T05:49:30.964Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"c:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"c:\\taskOne\\build\\index.js","function":null,"line":54,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3060
+Error: listen EADDRINUSE: address already in use :::3060
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\taskOne\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\taskOne\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\taskOne\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\taskOne\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\taskOne\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Sat Mar 05 2022 11:20:35 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":413114},"process":{"argv":["node","C:\\taskOne\\src\\index.js"],"cwd":"C:\\taskOne","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19031725,"external":30575738,"heapTotal":101019648,"heapUsed":78159728,"rss":142688256},"pid":18820,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3060\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\taskOne\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\taskOne\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\taskOne\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-05T05:50:35.885Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\taskOne\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\taskOne\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\taskOne\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-05T09:12:17.364Z"}
